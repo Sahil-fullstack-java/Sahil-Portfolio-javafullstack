@@ -68,9 +68,28 @@ document.addEventListener("keydown", function (e) {
         alert("⚠️ Developer Tools are disabled!");
     }
 
-    // Ctrl + U (View Source)
+    
     if (e.ctrlKey && e.key.toUpperCase() === "U") {
         e.preventDefault();
         alert("⚠️ View Source is disabled!");
     }
+});
+
+const readMoreBtn = document.getElementById("readMoreBtn");
+const readme = document.getElementById("readme");
+
+readMoreBtn.addEventListener("click", function () {
+
+    if (readme.style.display === "block") {
+
+        readme.style.display = "none";
+        readMoreBtn.innerText = "Read More";
+
+    } else {
+
+        readme.style.display = "block";
+        readMoreBtn.innerText = "Read Less";
+
+    }
+
 });
