@@ -62,7 +62,7 @@ document.addEventListener("keydown", function (e) {
     if (
         e.ctrlKey &&
         e.shiftKey &&
-        ["I", "J", "C"].includes(e.key.toUpperCase())
+        ["I", "J", "C","U"].includes(e.key.toUpperCase())
     ) {
         e.preventDefault();
         alert("⚠️ Developer Tools are disabled!");
