@@ -68,12 +68,20 @@ document.addEventListener("keydown", function (e) {
         alert("⚠️ Developer Tools are disabled!");
     }
 
-    
-    if (e.ctrlKey && e.key.toUpperCase() === "U") {
+    // document.addEventListener("keydown", function (e) {
+    if (e.ctrlKey && e.key.toLowerCase() === "u") {
         e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
         alert("⚠️ View Source is disabled!");
+        return false;
     }
-});
+ }, true);
+    // if (e.ctrlKey && e.key.toUpperCase() === "U") {
+    //     e.preventDefault();
+    //     alert("⚠️ View Source is disabled!");
+    // }
+ //});
 
 const readMoreBtn = document.getElementById("readMoreBtn");
 const readme = document.getElementById("readme");
