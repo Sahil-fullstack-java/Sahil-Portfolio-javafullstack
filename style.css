@@ -279,7 +279,8 @@ span {
 /* ******************Contact Section********************* */
 
 .contact {
-    background-color: var(--bg-color);
+   background: linear-gradient(135deg, #6C63FF, #00D4FF);;
+    /* var(--bg-color) */
     
 }
 
@@ -308,7 +309,7 @@ span {
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background:rgba(108, 99, 255, 0.6);
+    background:white;
     border-radius: 0.8rem;
     border: 0.25rem solid rgba(108, 99, 255, 0.6);
     margin: 0.7rem 0;
