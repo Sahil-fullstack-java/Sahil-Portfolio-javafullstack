@@ -101,3 +101,71 @@ readMoreBtn.addEventListener("click", function () {
     }
 
 });
+// // // ==================================================================
+//  const javabtn =  document.getElementById("javabtn");
+// const readjava =  document.getElementById("readjava");
+
+// readbtn.addEventListener("click", function(){
+
+//         if (readjava.style.display === "block") {
+//             readjava.style.display = "none";
+//             javabtn.innerText = "Read more";
+//         } else {
+//               readjava.style.display = "block";
+//             javabtn.innerText = "Read Less";
+//         }
+
+
+
+// });
+
+// // =====================================================
+// const readbtn = document.getElementById("readbtn");
+// const readweb = document.getElementById("readweb");
+
+// readbtn.addEventListener("click", function () {
+
+//     if (readweb.style.display === "block") {
+
+//         readweb.style.display = "none";
+//         readbtn.innerText = "Read More";
+
+//     } else {
+
+//         readweb.style.display = "block";
+//         readbtn.innerText = "Read Less";
+
+//     }
+
+// });
+// // =========================================
+// const backbtn = document.getElementById("backbtn");
+// const readback = document.getElementById("readback");
+
+// readbtn.addEventListener("click", function () {
+
+//     if (readback.style.display === "block") {
+
+//         readback.style.display = "none";
+//         backbtn.innerText = "Read More";
+
+//     } else {
+
+//         readback.style.display = "block";
+//         backbtn.innerText = "Read Less";
+
+//     }
+
+// });
+
+
+
+
+
+
+
+
+
+
+
+

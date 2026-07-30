@@ -472,9 +472,18 @@ span {
     }
 }
 
-#readme {
+/* #readme {
     display: none;
 }
+#readweb{
+    display: none;
+}
+#readjava{
+    display: none;
+}
+#readback{
+    display: none;
+} */
 
 .headings {
     padding: 14px 35px;
